@@ -62,7 +62,7 @@ aws-event-driven-etl/
 
 ## Quick Start
 
-> For the full walkthrough with screenshots and code, see [`docs/setup-guide.md`](docs/setup-guide.md) or open the [`AWS Pipeline Setup Report.pdf`](AWS%20Pipeline%20Setup%20Report.pdf).
+> For the full walkthrough with code and steps, see [`docs/setup-guide.md`](docs/setup-guide.md) or open the [`AWS Pipeline Setup Report.pdf`](AWS%20Pipeline%20Setup%20Report.pdf).
 
 1. **IAM** — Create role `source-bucket-takeo-role` with S3, Glue, and CloudWatch access
 2. **S3** — Create source bucket `source-bucket-takeo`
