@@ -7,7 +7,7 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 
 # Receive arguments passed from Lambda
-args = getResolvedOptions(sys.argv, ["VAL1", "VAL2"])
+args = getResolvedOptions(sys.argv, ["JOB_NAME", "VAL1", "VAL2"])
 
 val1 = args["VAL1"]  # file_name
 val2 = args["VAL2"]  # bucket_name
