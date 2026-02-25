@@ -64,13 +64,13 @@ Follow the steps in [`docs/setup-guide.md`](docs/setup-guide.md) in order:
 
 ## AWS Services Used
 
-| Service | Purpose |
-|---|---|
-| Amazon S3 | Source and destination storage |
-| AWS Lambda | Event trigger and Glue job orchestrator |
-| AWS Glue | ETL processing of uploaded files |
-| Amazon CloudWatch | Logging and monitoring |
-| AWS IAM | Role-based access control |
+| Service           | Purpose                                 |
+| ----------------- | --------------------------------------- |
+| Amazon S3         | Source and destination storage          |
+| AWS Lambda        | Event trigger and Glue job orchestrator |
+| AWS Glue          | ETL processing of uploaded files        |
+| Amazon CloudWatch | Logging and monitoring                  |
+| AWS IAM           | Role-based access control               |
 
 ---
 
